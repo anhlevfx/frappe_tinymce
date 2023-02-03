@@ -32,6 +32,10 @@ frappe.ui.form.ControlTextEditor = class ControlTextEditor extends frappe.ui.for
             promotion: false,
             relative_urls: false,
             remove_script_host: false,
+            relative_urls: false,
+            remove_script_host: false,
+            convert_urls: false,
+            plugins: 'image',
 
             setup: function (editor) {
                 that.editor_id = editor.id
