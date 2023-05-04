@@ -17,7 +17,7 @@ app_include_css = "/assets/frappe_tinymce/css/frappe_tinymce.css"
 # app_include_js = "/assets/frappe_tinymce/js/frappe_tinymce.js"
 
 app_include_js = [
-    "https://cdnjs.cloudflare.com/ajax/libs/tinymce/6.3.0/tinymce.min.js",
+    "https://cdnjs.cloudflare.com/ajax/libs/tinymce/6.4.2/tinymce.min.js",
     "/assets/frappe_tinymce/js/frappe_tinymce.js"
 ]
 
@@ -49,7 +49,7 @@ app_include_js = [
 
 # website user home page (by Role)
 # role_home_page = {
-#	"Role": "home_page"
+# "Role": "home_page"
 # }
 
 # Generators
@@ -108,7 +108,7 @@ app_include_js = [
 # 		"on_update": "method",
 # 		"on_cancel": "method",
 # 		"on_trash": "method"
-#	}
+# }
 # }
 
 # Scheduled Tasks
@@ -186,4 +186,3 @@ app_include_js = [
 # auth_hooks = [
 # 	"frappe_tinymce.auth.validate"
 # ]
-
